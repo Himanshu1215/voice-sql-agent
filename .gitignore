@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+venv/
+.env
+database/sales.db
+server.log
+*.log
+*.mp3
+*.m4a
+*.wav
+*.zip
+.ipynb_checkpoints/
