@@ -101,16 +101,20 @@ docker compose up --build
 The API will be available at http://localhost:8000.
 
 ## Project structure
+## 📂 Project Structure
 
+```text
 voice-sql-agent/
 ├── app/
-│   ├── main.py          FastAPI app and endpoints
-│   ├── agent.py         LangChain SQL agent
-│   └── transcribe.py    Whisper speech-to-text
+│   ├── main.py          # FastAPI app and API endpoints
+│   ├── agent.py         # LangChain SQL Agent
+│   └── transcribe.py    # Whisper speech-to-text module
 ├── database/
-│   └── seed.py          Creates and seeds sales.db
+│   └── seed.py          # Creates and seeds sales.db
 ├── Dockerfile
 ├── docker-compose.yml
 ├── requirements.txt
 └── README.md
+```
 
+---
